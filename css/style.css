@@ -9,4 +9,14 @@ body{
     font-family: 'Fredoka', sans-serif;
     font-family: 'Fredoka One', cursive;
     background-color: lightgrey;
+    width: 60%;
+    margin: auto;
+    text-align: center;
 }
+/* Header */
+h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: purple;
+}
+/* Main */
