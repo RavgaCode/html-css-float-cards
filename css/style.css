@@ -7,7 +7,6 @@
 /* COMMON */
 body{
     font-family: 'Fredoka', sans-serif;
-    font-family: 'Fredoka One', cursive;
     width: 65%;
     margin: auto;
     text-align: center;
@@ -17,6 +16,7 @@ h1{
     padding-top: 30px;
     padding-bottom: 30px;
     color: rgb(229, 49, 112);
+    font-family: 'Fredoka One', cursive;
 }
 /* Main */
 .main-text{
@@ -47,12 +47,17 @@ h1{
     width: calc(100% - 100px) ;
     text-align: left;
     color: white;
+    font-weight: 300;
 }
 address{
     font-style: normal;
     color: rgb(110, 203, 242);
+    display: inline-block;
 }
-p{
-    font-family: sans-serif;
-    font-weight: 300;
+.card p{
+    padding:2px 0;
+    font-size: small;
+}
+.card h3{
+    padding: 7px 0px 5px;
 }
