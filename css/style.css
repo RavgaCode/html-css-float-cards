@@ -31,5 +31,14 @@ h1{
 .col{
     width: calc(100% / 3);
     float: left;
-    padding:0 15px;
+    padding:20px 15px;
+}
+.card img{
+    height: 90px;
+    float: left;
+}
+.card .content{
+    float: right;
+    width: calc(100% - 100px) ;
+    text-align: left;
 }
